@@ -75,5 +75,8 @@ In this demo, I showcase how to create an S3 bucket and upload images using diff
 - Under the **Properties** tab, I verified that the server-side encryption was set to the default configuration from Step 6.
 - ![Screenshot](https://imgur.com/timjBB1.png)
 
+### 8. Clean Up
+To avoid unnecessary charges, I emptied and deleted the S3 bucket once I was done & scheduled the KMS key deletion.
+
 ## Conclusion
 In this demo, I demonstrated how to configure different encryption methods in S3, apply role-based access restrictions through IAM policies, and set default encryption for an S3 bucket. By the end of this demo, I had a deeper understanding of AWS S3 object encryption and role separation.
