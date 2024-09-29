@@ -1,10 +1,13 @@
 # Demo - SSE Object Encryption and Role Separation
 
 In this demo, I showcase how to create an S3 bucket and upload images using different server-side encryption (SSE) methods, including SSE-S3, SSE-KMS with an AWS-managed key, and SSE-KMS with a customer-generated key. Additionally, I apply role-based access restrictions through an IAM policy and set default bucket encryption.
+
 ## Pre-Requisites
 
 - **AWS Account Setup**: I used the management account from my AWS Organizations setup to complete this demo.
-- **Required Files**: `sse-s3-dweez.jpg`; `sse-kms-ginny.jpg` and `default-merlin.jpg` : will be used as S3 Objects and `denyKMS.json` a policy.
+- **Required Files**:
+    `sse-s3-dweez.jpg`, `sse-kms-ginny.jpg`, and `default-merlin.jpg`: These will be used as S3 objects in the demo.
+    `denyKMS.json`: This will be used as an IAM policy.
 
 ## Steps
 
